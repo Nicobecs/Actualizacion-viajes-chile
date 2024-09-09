@@ -1,0 +1,53 @@
+/*ESTILOS DE LA BARRA DE NAVEGACIÓN*/
+
+.logo-nav {
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+}
+
+.navbar {
+    background-color: transparent;
+    position: fixed!important;
+    z-index: 10!important;
+    width: -webkit-fill-available;
+}
+
+.navbar:hover {
+    background-color: #0000009d;
+    color: $white_color!important;
+}
+
+.navbar-brand {
+    color: $white_color!important;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active {
+    color: blue;
+}
+
+.nav-link {
+    color: $white_color!important;
+    font-size: 1rem;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    color: $primary_color!important;
+}
+
+.navbar-toggler:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #fff;
+}
+
+.navbar-toggler:hover {
+    color: #fff;
+    box-shadow: 0 0 5px #fff;
+    text-shadow: 0 0 5px #fff;
+}

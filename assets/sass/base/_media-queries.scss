@@ -1,0 +1,56 @@
+/* Breakpoint para tablet (768px a 1024px) */
+@media (max-width: 1024px) {
+    .icon-montain-desktop {
+        display: none;
+    }
+
+    .icon-montain-movil {
+        display: block;
+    }
+}
+
+/* Breakpoint para móvil (menor a 768px) */
+@media (max-width: 768px) {
+    .carousel {  
+        height: 300px!important; 
+    }
+
+    .icon-montain-desktop {
+        display: none;
+    }
+
+    .icon-montain-movil {
+        display: block;
+    }
+
+    .btn-color {
+        width: 100%;
+    }
+
+    .image-nosotros {
+        display: none;
+    }
+}
+
+/* Breakpoint para móvil pequeño (menor o igual a 375px) */
+@media (max-width: 375px) {
+    .carousel {  
+        height: 300px!important; 
+    }
+    
+    .icon-montain-desktop {
+        display: none;
+    }
+
+    .icon-montain-movil {
+        display: block;
+    }
+
+    .btn-color {
+        width: 100%;
+    }
+
+    .image-nosotros {
+        display: none;
+    }
+}

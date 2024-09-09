@@ -1,0 +1,99 @@
+/* Estilos Section Quienes somos */
+.titulos {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.icon-nosotros {
+    background-color: #0dcaf0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.texto-espaciado {
+    font-weight: 400;
+}
+
+.container-secciones {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.image-nosotros {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px !important;
+
+}
+
+/* Estilos Section Destacados */
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 20rem;  
+    margin: auto;
+    background-color: #0dcaf0;
+    color: #fff;
+}
+
+.card-destacados {
+    width: 100%!important; 
+    height: 100%!important; 
+}
+
+.card-destacados-img{
+    height: 100% !important;
+    object-fit: cover; 
+}
+.card-precio{
+    float: inline-end;
+    font-size: 1.5rem;
+    margin-top: -8px;
+}
+
+
+.card-title,
+.card-text {
+    font-weight: 400;
+}
+
+.card-img-top {
+    height: 10rem;
+    object-fit: cover;
+    border: 0.2px solid $primary_color;
+}
+/*
+.card-footer{
+    background-color: #00000045!important;
+}*/
+
+/* Estilos Section Contacto */
+.btn-color {
+    background-color: #0dcaf0;
+    color: #fff;
+}
+
+.btn-color:hover {
+    background-color: #045e70;
+}
+
+.tooltip-inner {
+    background-color: $primary_color;
+    color: #000;
+}
+
+hr{
+    border: 1px solid $white_color!important;
+    opacity: 0.9!important;
+}
+
+.contact-info{
+    padding-top: 75px;
+}
